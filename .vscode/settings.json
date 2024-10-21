@@ -1,0 +1,10 @@
+{
+    "makefile.makefilePath": "/home/kiro/MyProjects/Alien_Shooter/makefile",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/kiro/MyProjects/Alien_Shooter",
+            "binaryPath": "/home/kiro/MyProjects/Alien_Shooter/sfml-app",
+            "binaryArgs": []
+        }
+    ]
+}
