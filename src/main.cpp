@@ -1,6 +1,5 @@
 #include <SFML/Graphics.hpp>
-#include <iostream>
-#include <vector>
+#include "entities/bullet.hpp"
 
 // Resolution for window
 const int WINDOW_WIDTH = 1280;
@@ -87,10 +86,11 @@ void execute() {
     float multiplier = 60;
 
     sf::View view;
-    view.setSize(1280, 720);
+    view.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 
     Player player;
     HP hp;
+    Bullet bullet;
 
     while (window.isOpen()) {
 

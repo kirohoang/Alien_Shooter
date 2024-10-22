@@ -22,8 +22,8 @@ A simple alien shooter game made by kirodev using sfml.
   - Saturn (Meteor, Dust Stone)
   - Uranus
   - OutOrder (Special Stage: Darkness, cosmics, cold, mystery entity)
-  - Sun (So hot, )
-## Player & Aliens\
+  - Sun
+## Player & Aliens
 - Player will always have 3 hearts
 - Alien will randomly around 3 -> 6 hearts
 - Bosses will have 10 hearts and after stage by stage Boss's heart will increasing 10
