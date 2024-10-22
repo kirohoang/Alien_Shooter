@@ -1,2 +1,3 @@
 # Alien_Shooter
-My First SFML Game
+A simple alien shooter game made by kirodev using sfml
+

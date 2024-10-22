@@ -17,7 +17,7 @@ public:
         }
 
         hp.setTexture(hpTexture);
-        hp.setScale(sf::Vector2f(5.f, 5.f));
+        hp.setScale(sf::Vector2f(2.5f, 2.5f));
     };
     ~HP() {}
 };
@@ -27,7 +27,7 @@ class Player {
 public:
     sf::Sprite spaceShip;
     sf::Texture spaceShipTexture;
-
+    
     Player() {
         if (!spaceShipTexture.loadFromFile("images/ship.png")) {
             std::cout << "Error can't find the image" << "\n";
