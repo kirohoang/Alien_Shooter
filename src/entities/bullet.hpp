@@ -4,21 +4,17 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
+#include "player.hpp"
 
 class Bullet {
 public:
+    int hp;
     sf::Sprite bullet;
     sf::Texture bulletTexture;
 
-    Bullet() {
-        if (!bulletTexture.loadFromFile("images/")) {
-            std::cout << "Couldn't find the images!" << "\n";
-        }
+    Bullet();
 
-        bullet.setTexture(bulletTexture);
-        bullet.setScale(sf::Vector2f(10.f, 10.f));
-    }
-    ~Bullet() {}
+    void bulletAttributes(Player &player);
 };
 
 #endif
